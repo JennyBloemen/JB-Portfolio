@@ -1,2 +1,2 @@
 # JB-Portfolio
-JB Studio
+JB 
