@@ -73,7 +73,7 @@ h3{
     font-size: 36px;
     padding: 5px;
     text-align: left;
- }
+}
 .card img {
     width: 310px;
 }
@@ -82,9 +82,13 @@ footer {
     min-width:400px;
     display: flex;
     justify-content: space-between;
-    padding: 60px;
+    padding: 40px;
 }
-
+footer a { 
+    margin: 20px;
+    border-radius: 5px;
+    background-color:#73cada;
+}
 @media screen and (max-width: 768px) {
     main, nav {
       flex-direction: column;
