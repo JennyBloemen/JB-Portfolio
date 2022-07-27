@@ -44,30 +44,44 @@ a {
 }
 .about {
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     margin: 20px;
     text-align: left;
-    max-width: 90%;
+    max-width: 80%;
 }
 .about img {
     flex: 1;
     max-height: 250px;
     max-width: 250px;
     padding: 5px;
-    border:#d5c4b8;
 }
 .work {
     display: flex;
     flex-wrap: wrap;
+    justify-content: ;
     margin: 20px;
     text-align: left;
     max-width: 90%;
+    padding: 15px
 } 
+#work-sample1 img {
+    border-radius: 25px;
+    padding: 15px;
+    flex: 0 0 100 px;
+    margin: 20px;
+    background-color:#73cada;
+    width: 900px;
+    margin: 20ppx;
+}
+
 .card {
     border-radius: 25px;
     padding: 15px;
     flex: 0 0 100 px;
     margin: 20px;
     background-color:#73cada;
+    justify-content: center;
 }
 h3{
     font-size: 36px;
@@ -78,14 +92,12 @@ h3{
     width: 310px;
 }
 footer {
-    margin: 20px;
-    min-width:400px;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+  padding: 15px
 }
-footer a { 
-    margin: 20px;
+#footerdiv { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     border-radius: 5px;
     background-color:#73cada;
 }
