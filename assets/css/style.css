@@ -72,37 +72,51 @@ a {
     justify-content: space-between;
     margin: 20px;
     text-align: left;
-    max-width: 90%;
-    padding: 15px;
-} 
+    /* max-width: 90%;
+    padding: 15px; */
+}
+#work1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;} 
+
 .card1 {
     border-radius: 25px;
     padding: 15px;
     margin: 20px;
     background-color:#73cada;
-    justify-content: center;
-    width: 100%;
-    
+    /* justify-content: center; */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card {
     border-radius: 25px;
     padding: 15px;
-    flex: 0 0 100 px;
+    /* flex: 0 0 100 px; */
     margin: 20px;
     background-color:#73cada;
-    justify-content: center;
+    /* justify-content: center; */
+    width: 30%;
 }
 h3{
     font-size: 36px;
     padding: 5px;
-    text-align: left;
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 .card img {
-    width: 310px;
+    width: 100%;
 }
 .work-sample1 img{
-    width: 800px;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 500px;
 }
 #contact-me {
   padding: 20px
@@ -114,17 +128,27 @@ h3{
     border-radius: 5px;
     background-color:#73cada;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     main, nav {
       flex-direction: column;
+    } */
+/* } */
+@media screen and (max-width: 1264px) {
+    .card {
+    justify-content:center;
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
-@media screen and (max-width: 992px) {
-    header {
-      background: gray;
+@media screen and (max-width: 720px) {
+    .card {
+    justify-content:center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     }
-}
-  
+} 
 
   
 
