@@ -136,7 +136,6 @@ h6 {
 #footerdiv { 
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
     border-radius: 10px;
     background-color:#73cada;
     padding: 5px;
