@@ -10,7 +10,7 @@ Required criteria included the following:
 
 I am the only contributor and the website is for educational purposes. An updated version will be launched when work samples are complete and ready to showcase. 
 
-Link to access the website:
+Link to access the website:https://jennybloemen.github.io/JB-Portfolio/
 
 Sample Image
 ![Screenshot (14)](https://user-images.githubusercontent.com/108432711/181680568-7fded828-fe8e-49bb-95a4-ee58a19c3846.png)
