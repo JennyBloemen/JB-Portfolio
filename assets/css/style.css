@@ -2,10 +2,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Bradley Hand;
+  font-family: "Mukta", sans-serif;
 }
 body {
-  background-color: black;
+  background-color: rgb(63, 63, 63);
 }
 header {
   padding: 20px;
@@ -15,37 +15,41 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: -80px;
-  margin-right: 40px;
+  margin: -65px;
+  margin-right: 50px;
   float: right;
-  font-size: 2px;
-  min-width: 350px;
+  /* font-size: 1px; */
+  min-width: 325px;
 }
 a {
   color: rgb(169, 168, 168);
   text-decoration: none;
-  font-size: 26px;
+  font-size: 24px;
+  font-family: "Mukta", sans-serif;
 }
 h1 {
+  font-family: "Mukta", sans-serif;
   font-size: 54px;
   color: rgb(169, 168, 168);
-  margin: 25px;
+  margin-left: 25px;
 }
 h2 {
+  font-family: "Mukta", sans-serif;
   font: size 32px;
   color: rgb(169, 168, 168);
-  margin: 25px;
+  margin-left: 80px;
+  margin-top: -1%;
 }
 h2 .design {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Shalimar", cursive;
   color: white;
-  font-size: 26px;
-  min-width: 10%;
-  margin: 20px;
+  font-size: 32px;
+  /* min-width: 30%; */
+  margin: 10px;
 }
 .cardabout {
   justify-content: center;
-  max-width: 60%;
+  max-width: 75%;
 }
 #about {
   display: flex;
@@ -65,11 +69,13 @@ h2 .design {
   border-radius: 25px;
 }
 h3 {
-  font-size: 48px;
+  font-size: 36px;
   color: rgb(169, 168, 168);
-  margin: 50px;
+  margin-left: 45px;
+  margin-top: 60px;
 }
 h4 {
+  font-family: "Mukta", sans-serif;
   font-size: 36px;
   color: rgb(169, 168, 168);
   min-width: 10%;
@@ -77,9 +83,10 @@ h4 {
   text-align: center;
 }
 h5 {
+  font-family: "Mukta", sans-serif;
   font-size: 36px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
@@ -90,9 +97,9 @@ h6 {
   font-size: 20px;
 }
 p {
-  margin: 60px;
+  margin-left: 50px;
   color: rgb(169, 168, 168);
-  font-size: 28px;
+  font-size: 24px;
 }
 #work {
   display: flex;
@@ -101,12 +108,12 @@ p {
   margin: 20px;
   text-align: left;
 }
-/* #work1 {
+#work1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
-} */
+}
 
 .card-one {
   display: flex;
@@ -130,7 +137,7 @@ p {
 .card {
   border-radius: 25px;
   padding: 15px;
-  margin: 20px;
+  margin: 15px;
   background-color: rgb(169, 168, 168);
   width: 30%;
 }
